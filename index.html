@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-     <link rel="stylesheet" href="./css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NSS</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!---CHECK  CODE HERE-->
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+<!--ENTER THE -->
 
 
     <style>
@@ -29,6 +34,53 @@
             margin: 50px 0;
             padding: 10px;
         }
+
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background: #000;
+  padding: 40px 0px;
+  color: white;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
+
+.socials {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.socials a {
+  color: #fff;
+  margin-right: 30px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+.socials a:hover {
+  color: #ffb320;
+}
+
+span {
+  color: #ffb320;
+}
+
+
+
         @media (min-width: 576px) {
 
         }
@@ -57,7 +109,7 @@
  </div>
 
 <!--NAVBAR START FROM HERE-->
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg navbar-light  " style="color: white">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
@@ -168,21 +220,34 @@
                 </large>
             </div>
             <center>  
-               <marquee width="60%" direction="up" height="100px" scrollamount="5">
+              
+
+      <marquee onMouseOver="this.stop()" onMouseOut="this.start()" width="60%" direction="up" height="100px" scrollamount="5">
 This is a sample scrolling text that has scrolls in the upper direction.
 </marquee>
-      <marquee width="60%" direction="up" height="100px" scrollamount="5">
+     
+     <marquee onMouseOver="this.stop()" onMouseOut="this.start()" width="60%" direction="up" height="100px" scrollamount="5">
 This is a sample scrolling text that has scrolls in the upper direction.
 </marquee>
-      <marquee width="60%" direction="up" height="100px" scrollamount="5">
+
+ <marquee onMouseOver="this.stop()" onMouseOut="this.start()" width="60%" direction="up" height="100px" scrollamount="5">
 This is a sample scrolling text that has scrolls in the upper direction.
 </marquee>
-      <marquee width="60%" direction="up" height="100px" scrollamount="5">
+
+ <marquee onMouseOver="this.stop()" onMouseOut="this.start()" width="60%" direction="up" height="100px" scrollamount="5">
 This is a sample scrolling text that has scrolls in the upper direction.
 </marquee>
-      <marquee width="60%" direction="up" height="100px" scrollamount="5">
+
+ <marquee onMouseOver="this.stop()" onMouseOut="this.start()" width="60%" direction="up" height="100px" scrollamount="5">
 This is a sample scrolling text that has scrolls in the upper direction.
 </marquee>
+
+ <marquee onMouseOver="this.stop()" onMouseOut="this.start()" width="60%" direction="up" height="100px" scrollamount="5">
+This is a sample scrolling text that has scrolls in the upper direction.
+</marquee>
+
+
+
 </center>
 
             </div>
@@ -218,56 +283,38 @@ This is a sample scrolling text that has scrolls in the upper direction.
  <div class="row mb-2">
             <div class="col-4 bg-danger">
                 <center><h3>National Service Scheme Manual</h3></center>
-                <img typeof="foaf:Image" src="#" width="400" height="300" alt="National Service Scheme Manual">
+                <img typeof="foaf:Image" src="#" width="400" height="300" alt="N">
             </div>
             <div class="col-4 bg-warning">
                 <center><h3>Photo Gallery</h3></center>
-<img typeof="foaf:Image" src="#" width="400" height="300" alt="photogallery" title="Photo Gallery">            </div>
+<img typeof="foaf:Image" src="#" width="400" height="300" alt="photogallery" title="">          
+  </div>
             <div class="col-4 bg-success">
              <center><h3>VIDEO gallery</h3></center>
-      <img typeof="foaf:Image" src="#" width="400" height="300" alt="Video Gallery">         
+      <img typeof="foaf:Image" src="#" width="400" height="300" alt="">         
          </div>
         </div>
 
 
 
-     
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--Footer -->
+<footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <p class="footer-p">
+            © Created by <span>NSS volunteer</span> All Rights Reserved.
+          </p>
+          <div class="socials">
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-discord"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+            <a href="#"><i class="bx bxl-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer END -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
